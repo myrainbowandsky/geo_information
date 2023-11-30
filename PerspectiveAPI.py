@@ -43,7 +43,7 @@ from googleapiclient import discovery
 
 def perspective_analyze(text):
 
-    API_KEY = 'AIzaSyAPlZbUYD2pYxmz_CsDPUe5vNIQFiGlxS0'
+    API_KEY = '***'
 
     client = discovery.build(
         "commentanalyzer",
